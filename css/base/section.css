@@ -1,0 +1,18 @@
+.section-description {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+.section-team {
+  background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.section-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.footer {
+  background: var(--navyblue, #2e2f42);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
