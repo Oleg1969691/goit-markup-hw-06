@@ -1,0 +1,108 @@
+.section-team {
+  padding-bottom: 80px;
+}
+.title-team-main {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.title-team {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.content-team {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.container-team {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.team-img {
+  margin-left: auto;
+  margin-right: auto;
+}
+.svg {
+  fill: #f4f4fd;
+}
+.team-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.list-team-svg {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.team-link:hover,
+.team-link:focus {
+  background-color: #404bbf;
+}
+.title-team-item {
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+/* ============TABLE============ */
+@media screen and (min-width: 768px) {
+  .team-list {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+    justify-content: center;
+  }
+  .title-team-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .container-team-main {
+    width: 584px;
+  }
+  .section-team {
+    padding-bottom: 96px;
+  }
+}
+/* ========DESKTOP======= */
+@media screen and (min-width: 1158px) {
+  .team-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: nowrap;
+  }
+  .section-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .title-team-item {
+    width: calc((100% - 24px) / 2);
+  }
+}
+/* 
+
+ */

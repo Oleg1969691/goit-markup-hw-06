@@ -1,18 +1,35 @@
-.section-description {
-  padding-bottom: 120px;
-  padding-top: 120px;
+.sections {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+@media screen and (min-width: 1158px) {
+  .sections {
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-team {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .section-portfolio {
+    margin-top: 96px;
+    margin-bottom: 96px;
+  }
 }
 .section-team {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
-.section-portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+
 .footer {
   background: var(--navyblue, #2e2f42);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+@media screen and (min-width: 1158px) {
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 }
