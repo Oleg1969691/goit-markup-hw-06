@@ -19,7 +19,7 @@
   margin-right: auto;
   margin-left: auto;
   max-height: 432px;
-  max-width: 320px;
+  max-width: 100%;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -62,8 +62,6 @@
 /* =========TABLE========== */
 @media screen and (min-width: 768px) {
   .section-hero {
-    max-height: 436px;
-    max-width: 768px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -99,8 +97,7 @@
       ),
       url(/images/people-office.jpg);
     padding-top: 188px;
-    padding-bottom: 188px;
-    max-width: 1440px;
+    padding-bottom: 412px;
   }
   @media screen and (min-resolution: 192dpi) {
     .section-hero {
@@ -116,6 +113,3 @@
     margin: 0 auto 48px;
   }
 }
-/* 
-
- */
