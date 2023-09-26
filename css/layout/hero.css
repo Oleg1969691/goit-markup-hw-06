@@ -24,7 +24,7 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/Dark-bg-mobile.jpg);
+    url(../../images/Dark-bg-mobile.jpg);
   padding-bottom: 72px;
   padding-top: 72px;
 }
@@ -34,7 +34,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/Dark-bg@2x-mobile.jpg);
+      url(../../images/Dark-bg@2x-mobile.jpg);
   }
 }
 .button {
@@ -66,7 +66,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/Dark-bg-table.jpg);
+      url(../../images/Dark-bg-table.jpg);
     padding-top: 112px;
     padding-bottom: 112px;
   }
@@ -76,7 +76,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(/images/Dark-bg-table@2x.jpg);
+        url(../../images/Dark-bg-table@2x.jpg);
     }
   }
   .title-hero {
@@ -95,7 +95,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/people-office.jpg);
+      url(../../images/people-office.jpg);
     padding-top: 188px;
     padding-bottom: 412px;
   }
@@ -105,7 +105,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(/images/people-office@2x.jpg);
+        url(../../images/people-office@2x.jpg);
     }
   }
   .title-hero {
