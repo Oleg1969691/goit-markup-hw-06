@@ -25,7 +25,6 @@
   letter-spacing: 0.02em;
   width: 264px;
   height: 72px;
-  align-self: start;
 }
 .footer-title {
   color: var(--WHITE, #fff);

@@ -51,9 +51,6 @@
     background: var(--CLOUD, #f4f4fd);
     align-items: center;
   }
-  .description-svg {
-    margin-top: 24px;
-  }
 
   .list-description {
     display: flex;

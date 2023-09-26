@@ -264,6 +264,9 @@
     padding-top: 24px;
     padding-bottom: 24px;
   }
+  .list-address {
+    flex-direction: row;
+  }
   .page-header-container {
     padding-top: 0;
     padding-bottom: 0;
